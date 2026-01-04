@@ -20,7 +20,7 @@ let accessoConsentito = false;
 // ciclo per verificare utente
 
 for (let i = 0; i < invitati.lenght; i++) {
-  if (emailUntente === invitati[i]) {
+  if (emailUtente === invitati[i]) {
     accessoConsentito = true;
   }
 }
