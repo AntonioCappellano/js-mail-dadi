@@ -12,3 +12,7 @@ const invitati = [
 // chiedo email all'utente
 
 const emailUtente = prompt("Inserisci la tua email");
+
+// let per verificare utente
+
+let accessoConsentito = false;
