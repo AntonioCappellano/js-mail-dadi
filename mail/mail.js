@@ -20,7 +20,15 @@ let accessoConsentito = false;
 // ciclo per verificare utente
 
 for (let i = 0; i < invitati.lenght; i++) {
-  if (emailUntente === inviati[i]) {
+  if (emailUntente === invitati[i]) {
     accessoConsentito = true;
   }
+}
+
+// Stampo messaggio
+
+if (accessoConsentito) {
+  console.log("Accesso Consentito");
+} else {
+  console.log("Accesso Negato");
 }
