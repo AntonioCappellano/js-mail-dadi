@@ -16,3 +16,11 @@ const emailUtente = prompt("Inserisci la tua email");
 // let per verificare utente
 
 let accessoConsentito = false;
+
+// ciclo per verificare utente
+
+for (let i = 0; i < invitati.lenght; i++) {
+  if (emailUntente === inviati[i]) {
+    accessoConsentito = true;
+  }
+}
